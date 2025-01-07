@@ -1,0 +1,3 @@
+wt new-tab --title "Prometheus" cmd /c "C:\Users\data-analysis\prometheus-logging\prometheus-2.54.1.windows-amd64\prometheus.exe --config.file=C:\Users\data-analysis\prometheus-logging\prometheus-2.54.1.windows-amd64\prometheus.yml"
+wt new-tab --title "Yoctopuce" cmd /k "C:\Users\data-analysis\miniconda3\python.exe C:\Users\data-analysis\prometheus-logging\yoctopuce-sensors\yocto_metrics_exporter.py"
+wt new-tab --title "TC-Logger" cmd /k "C:\Users\data-analysis\miniconda3\python.exe C:\Users\data-analysis\prometheus-logging\tc-logger\tc_logger_exporter.py"

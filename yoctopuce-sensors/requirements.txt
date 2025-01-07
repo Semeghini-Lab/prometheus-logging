@@ -1,0 +1,2 @@
+prometheus_client==0.21.0
+yoctopuce==2.0.62554
